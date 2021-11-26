@@ -1,19 +1,22 @@
-function funct () {
-    let nama = prompt ('Siapa nama?');
+function funct() {
+    let nama = prompt('Siapa nama?');
     document.getElementById('tajuk').innerText = 'Selamat Datang ' + nama;
-   }
-   function sahkan () {
-    let sahkan = confirm ('Adakah anda pasti?');
+}
+
+function sahkan() {
+    let sahkan = confirm('Adakah anda pasti?');
     if (sahkan) {
-    return true;
+        return true;
     } else {
-    alert ('Arahan simpan dibatalkan');
-    return false;
+        alert('Arahan simpan dibatalkan');
+        return false;
     }
-   }
-   function target () {
+}
+
+function tar() {
     document.getElementById('mesej').innerText = 'Sila klik butang Simpan';
-   }
-   function blind() {
+}
+
+function blind() {
     document.getElementById('mesej').innerText = 'Sila nyatakan keperluan anda';
-   }
+}
